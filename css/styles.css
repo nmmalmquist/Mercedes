@@ -1,0 +1,134 @@
+body {
+  color: white;
+  margin: 0;
+  overflow-x: hidden;
+}
+h1 {
+  margin: 0;
+  font-size: 90px;
+  font-family: "Cinzel", serif;
+}
+h3 {
+  font-size: 40px;
+  font-family: "Cinzel", serif;
+  margin: 20;
+  display: inline-block;
+}
+h4 {
+  font-size: 18px;
+  font-family: "Cinzel", serif;
+  margin: 0;
+}
+p {
+  color: black;
+}
+.top-container {
+  height: 1000px;
+  background-position: -180px, 0;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+  position: relative;
+  width: 100vw;
+}
+.header-details {
+  display: flex;
+  flex-direction: row;
+
+  position: absolute;
+  right: 0px;
+  top: 0;
+  bottom: 0;
+}
+.logo {
+  width: 500px;
+}
+.mercedes {
+  display: inline-block;
+  margin: auto 0 auto 20px;
+}
+.about {
+  display: inline-block;
+  margin: auto 0 auto;
+}
+.location {
+  display: inline-block;
+  margin: auto 0 auto 50px;
+}
+.contact {
+  display: inline-block;
+  margin: auto 50px auto;
+}
+.middle-container {
+  background-color: silver;
+  width: 100vw;
+}
+.bottom-container {
+  background-color: rgb(15, 84, 129);
+  width: 100vw;
+  text-align: center;
+}
+.title {
+  padding-top: 60px;
+}
+.gle-image {
+  margin-top: 150px;
+  margin-left: 40px;
+  float: left;
+  transition: transform 0.4s;
+}
+.car-title {
+  display: inline-block;
+  margin-top: 120px;
+  margin-left: 30px;
+  color: black;
+}
+.car-paragraph {
+  display: inline-block;
+  width: 700px;
+  line-height: 2;
+  margin-left: 30px;
+}
+.text-hover:hover {
+  color: rgb(25, 181, 243);
+}
+.gls-image {
+  width: 750px;
+  margin-top: 50px;
+  margin-left: 40px;
+  float: right;
+  transition: transform 0.4s;
+}
+.gle-coupe-image {
+  width: 750px;
+  margin-top: 50px;
+  margin-left: 40px;
+  float: left;
+  transition: transform 0.4s;
+}
+.extend-margin-down {
+  margin-bottom: 200px;
+}
+.gls-image:hover {
+  transform: scale(1.1);
+}
+.gle-image:hover {
+  transform: scale(1.1);
+}
+.gle-coupe-image:hover {
+  transform: scale(1.1);
+}
+.copyright {
+  color: white;
+  display: inline-block;
+}
+.button {
+  background-color: transparent;
+  border: 0;
+}
+.link {
+  color: white;
+  text-decoration: none;
+}
